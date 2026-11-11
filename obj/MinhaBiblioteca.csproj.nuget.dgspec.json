@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\OneDrive\\Desktop\\Faculdade\\AulaEmerson\\Trabalho-GB\\MinhaBiblioteca\\MinhaBiblioteca.csproj": {}
+    "c:\\Users\\Userr\\OneDrive\\Documentos\\MinhaBiblioteca\\MinhaBiblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\OneDrive\\Desktop\\Faculdade\\AulaEmerson\\Trabalho-GB\\MinhaBiblioteca\\MinhaBiblioteca.csproj": {
+    "c:\\Users\\Userr\\OneDrive\\Documentos\\MinhaBiblioteca\\MinhaBiblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\Faculdade\\AulaEmerson\\Trabalho-GB\\MinhaBiblioteca\\MinhaBiblioteca.csproj",
+        "projectUniqueName": "c:\\Users\\Userr\\OneDrive\\Documentos\\MinhaBiblioteca\\MinhaBiblioteca.csproj",
         "projectName": "MinhaBiblioteca",
-        "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Faculdade\\AulaEmerson\\Trabalho-GB\\MinhaBiblioteca\\MinhaBiblioteca.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\Faculdade\\AulaEmerson\\Trabalho-GB\\MinhaBiblioteca\\obj\\",
+        "projectPath": "c:\\Users\\Userr\\OneDrive\\Documentos\\MinhaBiblioteca\\MinhaBiblioteca.csproj",
+        "packagesPath": "C:\\Users\\Userr\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Userr\\OneDrive\\Documentos\\MinhaBiblioteca\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Userr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +30,6 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -41,14 +44,13 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
-            "swashbuckle.aspnetcore": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[11.0.0, )"
             }
@@ -72,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
