@@ -1,21 +1,3 @@
-var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-
-builder.Services.AddControllers();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
-
 
 using MinhaBiblioteca.Repositories;
 
@@ -44,11 +26,11 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Swagger
+// Ativação do Swagger
 app.UseSwagger();
 app.UseSwaggerUI();
 
-// Configurações da aplicação
+// Configuração da aplicação
 app.UseHttpsRedirection();
 app.UseCors("PermitirFrontend");
 app.UseAuthorization();
@@ -56,4 +38,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
