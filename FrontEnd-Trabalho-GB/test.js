@@ -1,0 +1,1 @@
+fetch('http://localhost:5125/api/Avaliacao/').then()
